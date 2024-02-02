@@ -1,4 +1,4 @@
-# l0_prune
+# Neural Network Pruning Algorithm Based on L0-norm Sparse Optimization
 As Convolutional Neural Networks (CNNs) continue to grow in size, the demand for computing resources and storage capacity increases exponentially. 
 This growth significantly hampers the deployment of models in resource-constrained environments. 
 Channel pruning, a potent technique for diminishing the complexity and computational requirements of CNNs, offers a solution to this challenge. 
