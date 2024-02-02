@@ -11,5 +11,5 @@ Furthermore, to further enhance the model's performance after pruning, we also d
 This method employs the artificial bee colony algorithm to adjust channel pruning ratios, thus mitigating the negative impact of manually preset channel pruning ratios on model performance.
 Our experiments demonstrate that the proposed pruning methods outperform several state-of-the-art approaches.
 
-# CIFAR-10 Dataset: https://www.cs.toronto.edu/~kriz/cifar.html
-# ImageNet Dataset: https://image-net.org/challenges/LSVRC/2012
+## CIFAR-10 Dataset: https://www.cs.toronto.edu/~kriz/cifar.html
+## ImageNet Dataset: https://image-net.org/challenges/LSVRC/2012
