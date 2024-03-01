@@ -140,7 +140,7 @@ def main():
             data_time.update(time.time() - end)
             input = data[0].to(device)
             target = data[1].to(device)
-            train_loader_len = int(math.ceil(len(train_loader) / args.batch_size))
+            train_loader_len = int(math.ceil(len(train_loader.dataset) / args.batch_size))
 
             adjust_learning_rate(optimizer, epoch, batch_idx, train_loader_len)
 
